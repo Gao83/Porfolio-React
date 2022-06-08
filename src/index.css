@@ -15,7 +15,7 @@
     --color--bg: #4a4b4f;
     --color-bg1: #fa5d;
     --color-bg-variant: #56462e;
-    --color-primary: #41a0a7;
+    --color-primary: #349ba2;
     --color-primary-variant: #6362A2;
     --color-white: #ffffff;
     --color-light: #d0c0a8;
@@ -128,11 +128,14 @@ img {
 @media screen and (max-width: 1024px) {
     .container{
         width: var(--container-width-md)
+
     }
 
     section {
      margin-top: 6rem;
     }
+
+    
     
 }
 
