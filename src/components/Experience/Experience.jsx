@@ -21,29 +21,34 @@ const Experience = () => {
           <h3>Experience Frontend</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <AiFillHtml5 />
-              <h4>HTML</h4>
-              <small className='text-light'>Experienced</small>
+              <AiFillHtml5 className='experience__details-icon'/>
+              <div>
+                <h4>HTML</h4>
+              </div>
             </article>
             <article className="experience__details">
-              <IoLogoCss3 />
-              <h4>CSS</h4>
-              <small className='text-light'>Experienced</small>
+              <IoLogoCss3 className='experience__details-icon'/>
+              <div>
+                <h4>CSS</h4>
+              </div>
             </article>
             <article className="experience__details">
-              <DiBootstrap />
-              <h4>Boostrap</h4>
-              <small className='text-light'>Experienced</small>
+              <DiBootstrap className='experience__details-icon'/>
+              <div>
+                <h4>Boostrap</h4>
+              </div>
             </article>
             <article className="experience__details">
-              <IoLogoJavascript />
-              <h4>JavaScript</h4>
-              <small className='text-light'>Experienced</small>
+              <IoLogoJavascript className='experience__details-icon'/>
+              <div>
+                <h4>JavaScript</h4>
+              </div>
             </article>
             <article className="experience__details">
-              <GrReactjs />
-              <h4>React</h4>
-              <small className='text-light'>Experienced</small>
+              <GrReactjs className='experience__details-icon'/>
+              <div>
+                <h4>React</h4>
+              </div>
             </article>
           </div>
         </div>
@@ -52,21 +57,24 @@ const Experience = () => {
           <h3>Experience Backend</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <GrNode />
-              <h4>Node JS</h4>
-              <small className='text-light'>Experienced</small>
+              <GrNode className='experience__details-icon'/>
+              <div>
+                <h4>Node JS</h4>
+              </div>
             </article>
             <article className="experience__details">
-              <SiMongodb />
-              <h4>MongoDB</h4>
-              <small className='text-light'>Experienced</small>
+              <SiMongodb className='experience__details-icon'/>
+              <div>
+                <h4>MongoDB</h4>
+              </div>
             </article>
             <article className="experience__details">
-              <SiExpress />
-              <h4>Express JS</h4>
-              <small className='text-light'>Experienced</small>
+              <SiExpress className='experience__details-icon'/>
+              <div>
+                <h4>Express JS</h4>
+              </div>
             </article>
-           
+
           </div>
         </div>
 

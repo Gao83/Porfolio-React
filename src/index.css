@@ -42,7 +42,7 @@ body {
     background-color: var(--color--bg);
     color: var(--color-white);
     line-height: 1.7;
-    /* background-image: url('./assets/dark-denim.png'); */
+    /* background-image: url('./assets/bg-texture.png'); */
 
 }
 
@@ -68,7 +68,7 @@ font-size {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 section>h2,
@@ -78,12 +78,12 @@ section>h5 {
 }
 
 section>h2 {
-color: var(--color-primary);
-margin-bottom: 3rem;
+    color: var(--color-primary);
+    margin-bottom: 3rem;
 }
 
 .text-light {
-color: var(--color-light)
+    color: var(--color-light)
 }
 
 a {
@@ -91,7 +91,7 @@ a {
     transition: var(--transition)
 }
 
-a:hover{
+a:hover {
     color: var(--color-primary-variant)
 }
 
@@ -103,10 +103,10 @@ a:hover{
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid var(--color-primary-variant);
-    transition:var(--transition)
+    transition: var(--transition)
 }
 
-.btn:hover{
+.btn:hover {
     background-color: var(--color-bg-variant);
     color: var(--color-bg1);
     border-color: transparent;
@@ -126,17 +126,16 @@ img {
 /*---------------Media Queries (medium devices)-------------- */
 
 @media screen and (max-width: 1024px) {
-    .container{
+    .container {
         width: var(--container-width-md)
-
     }
 
     section {
-     margin-top: 6rem;
+        margin-top: 6rem;
     }
 
-    
-    
+
+
 }
 
 /*---------------Media Queries (small devices)-------------- */
@@ -150,4 +149,3 @@ img {
     }
 
 }
-
