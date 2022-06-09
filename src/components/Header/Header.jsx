@@ -5,6 +5,7 @@ import ME from '../../assets/master.jpg'
 import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
+  
     return (
         <header>
             <div className="container header__container" id='home'>

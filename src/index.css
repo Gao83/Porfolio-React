@@ -19,7 +19,7 @@
     --color-primary-variant: #6362A2;
     --color-white: #ffffff;
     --color-light: #d0c0a8;
-    --color-dark: black;
+    --color-dark: rgb(45, 44, 44);
 
     --transition: all 400ms ease;
 
