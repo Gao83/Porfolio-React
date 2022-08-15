@@ -1,18 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './About.css'
 import ME from '../../assets/Development-Frameworks-846x697-1.jpg'
 import { BsTrophy } from 'react-icons/bs'
 import { BsFillPeopleFill } from 'react-icons/bs'
 import { AiOutlineFolderOpen } from 'react-icons/ai'
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 
 function About() {
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, []);
+
   return (
-    <section id='about'>
+    <section id='about' data-aos='fade-up' data-aos-anchor-placement="center-center">
       <h5>Get to Know</h5>
       <h2> <span className='title-list'>01.</span> About Me </h2>
-     
+
 
       <div className="container about__container">
         <div className="about__me">
@@ -41,7 +47,7 @@ function About() {
           <a href="#contact" className='btn btn-primary'>Let´s talk</a>
         </div>
       </div>
- 
+
     </section >
   )
 }

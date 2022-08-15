@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Experience.css'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { IoLogoCss3 } from 'react-icons/io'
@@ -8,44 +8,51 @@ import { GrReactjs } from 'react-icons/gr'
 import { GrNode } from 'react-icons/gr'
 import { SiMongodb } from 'react-icons/si'
 import { SiExpress } from 'react-icons/si'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 
 const Experience = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1000 })
+  }, []);
+
   return (
     <section id='experience'>
       <h5>Skills I have</h5>
       <h2><span className='title-list'>02.</span> My Experience</h2>
 
-      <div className="container experience__container">
-        <div className="experience__frontend">
+      <div className="container experience__container" >
+        <div className="experience__frontend" data-aos='fade-up-right'>
           <h3>Experience Frontend</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <AiFillHtml5 className='experience__details-icon'/>
+              <AiFillHtml5 className='experience__details-icon' />
               <div>
                 <h4>HTML</h4>
               </div>
             </article>
             <article className="experience__details">
-              <IoLogoCss3 className='experience__details-icon'/>
+              <IoLogoCss3 className='experience__details-icon' />
               <div>
                 <h4>CSS</h4>
               </div>
             </article>
             <article className="experience__details">
-              <DiBootstrap className='experience__details-icon'/>
+              <DiBootstrap className='experience__details-icon' />
               <div>
                 <h4>Boostrap</h4>
               </div>
             </article>
             <article className="experience__details">
-              <IoLogoJavascript className='experience__details-icon'/>
+              <IoLogoJavascript className='experience__details-icon' />
               <div>
                 <h4>JavaScript</h4>
               </div>
             </article>
             <article className="experience__details">
-              <GrReactjs className='experience__details-icon'/>
+              <GrReactjs className='experience__details-icon' />
               <div>
                 <h4>React</h4>
               </div>
@@ -53,23 +60,23 @@ const Experience = () => {
           </div>
         </div>
 
-        <div className="experience__backend">
+        <div className="experience__backend" data-aos='fade-up-left'>
           <h3>Experience Backend</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <GrNode className='experience__details-icon'/>
+              <GrNode className='experience__details-icon' />
               <div>
                 <h4>Node JS</h4>
               </div>
             </article>
             <article className="experience__details">
-              <SiMongodb className='experience__details-icon'/>
+              <SiMongodb className='experience__details-icon' />
               <div>
                 <h4>MongoDB</h4>
               </div>
             </article>
             <article className="experience__details">
-              <SiExpress className='experience__details-icon'/>
+              <SiExpress className='experience__details-icon' />
               <div>
                 <h4>Express JS</h4>
               </div>

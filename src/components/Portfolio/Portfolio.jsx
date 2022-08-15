@@ -1,20 +1,27 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Portfolio.css'
 import IMG1 from '../../assets/reduc.png'
 import IMG2 from '../../assets/zombif.png'
 import IMG3 from '../../assets/portfolio3.jpg'
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 
 
 const Portfolio = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 500 })
+  }, []);
+
+
   return (
-    <section id='portfolio'>
+    <section id='portfolio' data-aos='fade-up'>
       <h5>My Recent Work</h5>
       <h2><span className='title-list'>03.</span> Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__item">
+        <article className="portfolio__item" data-aos='zoom-in-up'>
           <div className="portfolio__item-image">
             <div>
               <img src={IMG1} alt="" />
@@ -26,7 +33,7 @@ const Portfolio = () => {
             </div>
           </div>
         </article>
-        <article className="portfolio__item">
+        <article className="portfolio__item" data-aos='zoom-in-up'>
           <div className="portfolio__item-image">
             <div>
               <img src={IMG2} alt="" />
@@ -38,7 +45,7 @@ const Portfolio = () => {
             </div>
           </div>
         </article>
-        <article className="portfolio__item">
+        <article className="portfolio__item" data-aos='zoom-in-up'>
           <div className="portfolio__item-image">
             <div>
               <img src={IMG3} alt="" />
