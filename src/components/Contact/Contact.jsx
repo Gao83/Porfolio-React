@@ -25,7 +25,7 @@ function Contact() {
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
-      <h2><span className='title-list'>04.</span> Contact me</h2>
+      <h2><span className='title-list'>04.</span> Contact Me</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
