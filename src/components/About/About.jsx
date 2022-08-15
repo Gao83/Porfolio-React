@@ -11,12 +11,12 @@ function About() {
   return (
     <section id='about'>
       <h5>Get to Know</h5>
-      <h2>About me</h2>
+      <h2> <span className='title-list'>01.</span> About me </h2>
+     
 
       <div className="container about__container">
         <div className="about__me">
           <img src={ME} alt="" className="about__me-image" />
-
         </div>
         <div className="about__content">
           <div className='about__cards'>
@@ -37,11 +37,11 @@ function About() {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore soluta, molestias provident quisquam omnis alias explicabo quas sapiente nihil odio magni velit ab incidunt, hic id possimus cum libero consectetur?</p>
+          <p>Tech lover, food enthusiast & passionate for videogames. I embrace innovation by creating a culture of inclusiveness and social respect. Ready to dive into Web Developement World. My background: food industry. My moment: achive more knowleadge & experience in this field. My goal: I have many... but to become part of devs comunity is one of them. You are welcome to check some of my work.</p>
           <a href="#contact" className='btn btn-primary'>Let´s talk</a>
         </div>
       </div>
-
+ 
     </section >
   )
 }

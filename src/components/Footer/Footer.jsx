@@ -5,9 +5,9 @@ import { AiFillTwitterCircle, AiOutlineInstagram, AiFillFacebook } from 'react-i
 const Footer = () => {
   return (
     <footer>
-      <div className='footer__logo'>
+      {/* <div className='footer__logo'>
         <p>PERSONAL PORTFOLIO</p>
-      </div>
+      </div> */}
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>

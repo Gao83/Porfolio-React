@@ -44,13 +44,13 @@ function Contact() {
 
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder='Enter your name' required autoFocus="autofocus" />
+          <input type="text" name="name" placeholder='Enter your name' required />
           <input type="email" name="email" placeholder='Enter your email' required />
           <textarea name="message" rows="7" placeholder='Type your message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send</button>
         </form>
       </div>
-
+<hr />
     </section>
   )
 }
