@@ -1,7 +1,12 @@
 header {
-    height: 90vh;
+    height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
+}
+
+header h5{
+    color: var(--color-bg-variant);
+    font-size: 1.5rem;
 }
 
 .header__container {
@@ -10,21 +15,27 @@ header {
     position: relative;
 }
 
+.header__description{
+    font-size: 1.2rem;
+    margin: 1rem 4rem 1rem 4rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
 .wrapper {
-    height: 30vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} 
 
 .header__typing {
-    width: 38ch;
+    width: 26ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
     font-size: 2em;
-    color: var(--color-light)
+    color: var(--color-primary)
 }
 
 @keyframes typing {

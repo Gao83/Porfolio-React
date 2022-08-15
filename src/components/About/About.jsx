@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import ME from '../../assets/master.jpg'
+import ME from '../../assets/Development-Frameworks-846x697-1.jpg'
 import { BsTrophy } from 'react-icons/bs'
 import { BsFillPeopleFill } from 'react-icons/bs'
 import { AiOutlineFolderOpen } from 'react-icons/ai'
