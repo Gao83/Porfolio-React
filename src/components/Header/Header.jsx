@@ -17,7 +17,6 @@ const Header = () => {
                 </div>
                 <div className='header__description'>
                     <p>Tech lover, food enthusiast & passionate for videogames. I embrace innovation by creating a culture of inclusiveness and social respect. Ready to dive into Web Developement World. My background: food industry. My moment: achive more knowleadge & experience in this field. My goal: I have many... but to become part of devs comunity is one of them. You are welcome to check some of my work.</p>
-                    <p></p>
                 </div>
                 <CTA />
 

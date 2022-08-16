@@ -110,7 +110,7 @@ header h5 {
 @media screen and (max-width: 600px) {
 
     .header {
-        height: 100vh;
+        height: 200vh;
     }
 
     .header__socials,
@@ -120,6 +120,7 @@ header h5 {
 
     .header__description {
         margin-right: 1rem;
+        font-size: small;
     }
 
     .header__typing{
