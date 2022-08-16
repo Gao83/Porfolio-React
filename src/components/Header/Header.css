@@ -109,8 +109,8 @@ header h5 {
 
 @media screen and (max-width: 600px) {
 
-    .header {
-        height: 200vh;
+    header {
+        height: 110vh;
     }
 
     .header__socials,
