@@ -30,13 +30,13 @@ const Experience = () => {
             <article className="experience__details">
               <AiFillHtml5 className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
+                <h4>HTML5</h4>
               </div>
             </article>
             <article className="experience__details">
               <IoLogoCss3 className='experience__details-icon' />
               <div>
-                <h4>CSS</h4>
+                <h4>CSS3</h4>
               </div>
             </article>
             <article className="experience__details">
@@ -54,7 +54,7 @@ const Experience = () => {
             <article className="experience__details">
               <GrReactjs className='experience__details-icon' />
               <div>
-                <h4>React</h4>
+                <h4>ReactJS</h4>
               </div>
             </article>
           </div>
@@ -66,7 +66,7 @@ const Experience = () => {
             <article className="experience__details">
               <GrNode className='experience__details-icon' />
               <div>
-                <h4>Node JS</h4>
+                <h4>NodeJS</h4>
               </div>
             </article>
             <article className="experience__details">
@@ -78,7 +78,7 @@ const Experience = () => {
             <article className="experience__details">
               <SiExpress className='experience__details-icon' />
               <div>
-                <h4>Express JS</h4>
+                <h4>ExpressJS</h4>
               </div>
             </article>
 

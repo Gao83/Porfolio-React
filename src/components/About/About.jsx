@@ -15,7 +15,8 @@ function About() {
   }, []);
 
   return (
-    <section id='about' data-aos='fade-up' data-aos-anchor-placement="center-center">
+    <section id='about' >
+      
       <h5>Get to Know</h5>
       <h2> <span className='title-list'>01.</span> About Me </h2>
 
@@ -24,7 +25,7 @@ function About() {
         <div className="about__me">
           <img src={ME} alt="" className="about__me-image" />
         </div>
-        <div className="about__content">
+        <div className="about__content" data-aos='flip-up'>
           <div className='about__cards'>
             <article className="about__card">
               <BsTrophy className="about__icon" />

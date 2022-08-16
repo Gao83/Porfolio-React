@@ -4,7 +4,7 @@ header {
     overflow: hidden;
 }
 
-header h5{
+header h5 {
     color: var(--color-bg-variant);
     font-size: 1.5rem;
 }
@@ -15,18 +15,19 @@ header h5{
     position: relative;
 }
 
-.header__description{
+.header__description {
     font-size: 1.2rem;
     margin: 1rem 4rem 1rem 4rem;
     padding-right: 3rem;
     padding-bottom: 2rem;
 }
+
 .wrapper {
     height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
-} 
+}
 
 .header__typing {
     width: 26ch;
@@ -115,5 +116,13 @@ header h5{
     .header__socials,
     .scroll__down {
         display: none;
+    }
+
+    .header__description {
+        margin-right: 1rem;
+    }
+
+    .header__typing{
+        font-size: large;
     }
 }
