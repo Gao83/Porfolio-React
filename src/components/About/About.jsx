@@ -16,7 +16,7 @@ function About() {
 
   return (
     <section id='about' >
-      
+
       <h5>Get to Know</h5>
       <h2> <span className='title-list'>01.</span> About Me </h2>
 
@@ -30,21 +30,24 @@ function About() {
             <article className="about__card">
               <BsTrophy className="about__icon" />
               <h5>Experience</h5>
-              <small>Brand new in the labour market</small>
+              <small>Many years working in hospitality & food industry</small>
             </article>
             <article className="about__card">
               <BsFillPeopleFill className="about__icon" />
-              <h5>Clients</h5>
-              <small>300 +</small>
+              <h5>Soft Skills</h5>
+              <small> Communication Teamwork Adaptability <br/> Problem Solving Integrity Perseverance Proactivity</small>
+
             </article>
             <article className="about__card">
               <AiOutlineFolderOpen className="about__icon" />
-              <h5>Projects</h5>
-              <small>100</small>
+              <h5>Languages</h5>
+              <small>Spanish (native) Catalan (native) English (advanced) French (basic)</small>
             </article>
           </div>
 
-          <p>Tech lover, food enthusiast & passionate for videogames. I embrace innovation by creating a culture of inclusiveness and social respect. Ready to dive into Web Developement World. My background: food industry. My moment: achive more knowleadge & experience in this field. My goal: I have many... but to become part of devs comunity is one of them. You are welcome to check some of my work.</p>
+          <p>I am a <strong>  Junior Full Stack Developer </strong>with Hotel Management and Sociology background and 15 years of experience in hospitality and food industry.</p>
+          <p>The desire to <strong> reinvent myself </strong>along the motivation to learn and the curiosity that has accompanied me throughout my life, brought me to become a web developer.</p>
+          <p>I intend to be considered, to be able to prove my worth as a frontend developer, continue to absorb knowledge and grow professionally as part of a team, and thus contribute my technical and personal skills. Also being able to give back to others that it is never too late and that with effort, perseverance, a certain adaptability and desire to learn something new, <strong> all change is possible. </strong></p>
           <a href="#contact" className='btn btn-primary'>Let´s talk</a>
         </div>
       </div>
