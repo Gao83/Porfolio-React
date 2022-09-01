@@ -1,8 +1,5 @@
 import React, { useEffect } from 'react'
 import './PortfolioV2.css'
-import IMG1 from '../../assets/reduc.png'
-import IMG2 from '../../assets/zombif.png'
-import IMG3 from '../../assets/portfolio3.jpg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { FiGithub } from 'react-icons/fi'
